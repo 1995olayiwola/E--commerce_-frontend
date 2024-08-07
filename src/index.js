@@ -10,7 +10,7 @@ import reportWebVitals from './reportWebVitals';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Parse from 'parse';
 Parse.initialize("ola_id");
-Parse.serverURL = "http://localhost:1337/parse";
+Parse.serverURL = "https://back-end-jx7n.onrender.com/parse";
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
