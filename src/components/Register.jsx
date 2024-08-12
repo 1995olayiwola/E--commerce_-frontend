@@ -7,6 +7,8 @@ import {useHistory} from 'react-router-dom';
 import Spinner from './Spinner';
 
 const Register = () => {
+
+  
   const history = useHistory();
   const [loading,setLoading] = React.useState(false)
     const [state,setState] = React.useState({
